@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: rest-test
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.1.86:8010/eureka/
+server:
+  port: 8013
+security:
+  oauth2:
+    resource:
+      id: rest-test
+      user-info-uri: http://localhost:8012/uaa/user
+      prefer-token-info: false

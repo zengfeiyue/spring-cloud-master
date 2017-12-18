@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: api-gateway
+server:
+    port: 8012
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.1.86:8010/eureka/
+
+zuul:
+  routes:
+    auth:
+      path: /uaa/**
+      sensitiveHeaders:
+      serviceId: SECURITY-SERVICE
+    test:
+      path: /test/**
+      sensitiveHeaders:
+      serviceId: REST-TEST
+  add-proxy-headers: true
+
+security:
+  oauth2:
+    client:
+      access-token-uri: http://localhost:8012/uaa/oauth/token
+      user-authorization-uri: http://localhost:8012/uaa/oauth/authorize
+      client-id: webapp
+    resource:
+      user-info-uri: http://localhost:8012/uaa/user
+      prefer-token-info: false
