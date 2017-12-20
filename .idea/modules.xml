@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aip-gateway_main.iml" filepath="$PROJECT_DIR$/.idea/modules/aip-gateway_main.iml" group="aip-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aip-gateway_test.iml" filepath="$PROJECT_DIR$/.idea/modules/aip-gateway_test.iml" group="aip-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway_main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway_main.iml" group="api-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway_test.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway_test.iml" group="api-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-service/discovery-service.iml" filepath="$PROJECT_DIR$/discovery-service/discovery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-service_main.iml" group="discovery-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-service_test.iml" group="discovery-service" />
+      <module fileurl="file://$PROJECT_DIR$/rest-test/rest-test.iml" filepath="$PROJECT_DIR$/rest-test/rest-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest-test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rest-test_main.iml" group="rest-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest-test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rest-test_test.iml" group="rest-test" />
+      <module fileurl="file://$PROJECT_DIR$/security-service/security-service.iml" filepath="$PROJECT_DIR$/security-service/security-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/security-service_main.iml" group="security-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/security-service_test.iml" group="security-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-master.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-master_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-master_main.iml" group="spring-cloud-master" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-master_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-master_test.iml" group="spring-cloud-master" />
+    </modules>
+  </component>
+</project>
